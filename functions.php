@@ -14,7 +14,7 @@ function music_band_child_enqueue_styles() {
     wp_enqueue_style('tribe-events-full-calendar-style');
     wp_enqueue_style('tribe-events-calendar-style');
     wp_enqueue_style('music-band-child-style', get_stylesheet_uri(), array('theme-style'), time(), 'screen, print');
-    wp_enqueue_style('music-band-child-style-resp', get_stylesheet_directory_uri() . '/responsive.css', array(), time(), 'screen');
+    //wp_enqueue_style('music-band-child-style-resp', get_stylesheet_directory_uri() . '/responsive.css', array(), time(), 'screen');
 
     remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
     remove_action( 'wp_print_styles', 'print_emoji_styles' );

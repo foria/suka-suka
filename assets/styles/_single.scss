@@ -1,0 +1,134 @@
+
+/* Single Event */
+
+.single-tribe_events .tribe-events-single-event-title span {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+}
+
+.cmsms_single_event {
+  display: flex;
+  flex-direction: row;
+}
+
+.mbc-single__content-col {
+  width: 40%;
+  &:first-child {
+    width: 60%;
+    padding-right: 40px;
+  }
+}
+
+#tribe-events .tribe-events-content p,
+.tribe-events-after-html p,
+.tribe-events-before-html p,
+#tribe-events .tribe-events-content a {
+  font-size: 14px;
+}
+
+#tribe-events-content.tribe-events-single .cmsms_single_event_meta {
+  margin: 0;
+}
+
+.tribe-events-gmap {
+  display: none;
+}
+
+#tribe-events-content.tribe-events-single .cmsms_single_event_img,
+.single-tribe_events .tribe-events-event-image {
+  margin-bottom: 0;
+}
+
+#tribe-events-content {
+  &.tribe-events-single .cmsms_single_event_meta {
+    &.tribe-events-event-meta .tribe-events-meta-group {
+      width: 100%;
+      margin: 0;
+      text-align: right !important;
+      float: none;
+    }
+    .tribe-events-meta-group .cmsms_event_meta_info .cmsms_event_meta_info_item {
+      font-size: 14px;
+      .cmsms_event_meta_info_item_title {
+        font-size: 14px;
+      }
+    }
+  }
+  .cmsms_event_meta_info_item_descr.author a {
+    color: white;
+    background-color: black;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 0;
+    }
+  }
+}
+
+.cmsms_event_meta_info_item a {
+  font-size: 14px;
+}
+
+#tribe-events-content .tribe-events-nav-pagination a,
+#tribe-events-sub-nav a {
+  border-bottom: 0;
+}
+
+.tribe-related-events li {
+  display: flex;
+  flex-direction: row;
+}
+
+ul.tribe-related-events > li .tribe-related-events-thumbnail {
+  margin: 0 0 10px;
+  padding-right: 10px;
+}
+
+.post_nav > span {
+  a {
+    display: inline-block;
+  }
+  &.cmsms_next_post:before, &.cmsms_prev_post:before {
+    content: none;
+  }
+  &.cmsms_next_post a, &.cmsms_prev_post a {
+    padding: 0;
+  }
+}
+
+.middle_content #tribe-events-content.tribe-events-single {
+  padding: 0;
+}
+
+.bottom_inner {
+  margin: 0;
+}
+
+#header .bottom_inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom_inner aside {
+  width: 33%;
+  margin: 0;
+  ul {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+html .cmsms_color_scheme_bottom .widget ul li > a:hover {
+  border-bottom-color: #fff001;
+}
+
+#slide_top {
+  display: none !important;
+}

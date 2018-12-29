@@ -1,0 +1,48 @@
+
+/*Category Page*/
+
+.headline_outer {
+  background-color: transparent;
+}
+
+.headline_inner {
+  background-color: black;
+}
+
+#tribe-events-header {
+  padding: 0;
+}
+
+.tribe-events-nav-pagination {
+  margin-bottom: -60px;
+  position: relative;
+  z-index: 10;
+  ul {
+    width: 100%;
+    li {
+      display: inline-block;
+      &:hover {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+body:not([class*=paged]) .tribe-events-nav-previous {
+  visibility: hidden;
+}
+
+.tribe-events-nav-pagination ul li.tribe-events-nav-right {
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#tribe-events-content .tribe-events-nav-pagination ul li a:hover {
+  color: black;
+  background: none;
+}
+
+.tribe-events-list-separator-month:after {
+  content: none;
+}

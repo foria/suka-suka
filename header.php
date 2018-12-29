@@ -237,8 +237,6 @@ wp_head();
 </div>
 <!-- _________________________ Finish Header _________________________ -->
 
-<!-- <div class="logo-effect"></div> -->
-
 <!-- _________________________ Start Middle _________________________ -->
 <div id="middle"<?php echo (is_404()) ? ' class="error_page"' : ''; ?>>
 <?php
